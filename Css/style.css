@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+*{
+    margin:0px;
+    padding:0;
+}
+.banner{
+    background-image:url(../Image/Group\ 566.png);
+    background-color:#FEF4DE;
+    background-position:center;
+    background-size: cover;
+    
+}
+.bear-main{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:100px 0 100px 0;
+}
+.bear-heading h1{
+    margin:0;
+    padding:0;
+    color: #663128;
+    font-family: Poppins;
+    font-size: 115px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 118.5%; /* 136.275px */
+   
+}
+.bear-heading em{
+    margin:0;
+    padding:0 20px;
+    display: block;
+    color: #663128;
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.5%;
+    letter-spacing: 25.23px;
+}
+.bear-heading p{
+    margin:0;
+    padding:0;
+    padding-top:30px;
+    max-width: 552px;
+    width:100%;
+    color: #663128;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+.bear-button{
+    border: none;
+    color: #663128;
+    padding:21px 68px;
+    margin: 30px 0 0 0;
+    border-radius: 57px;
+    background: #F3CE5E;
+    font: 700 18px/24px 'Poppins', sans-serif;
+    box-shadow: 0px 20px 40px 0px rgba(243, 206, 94, 0.20);
+}
+.Services{
+    background-color: #663128;
+}
+.heading h1{
+    margin:0;
+    padding:100px 0 0 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.Services-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    padding:30px 0 50px 0;
+    gap:20px;
+}
+.Services-card{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+}
+.Services-border{
+    padding:110px 25px;
+    max-width: 288px;
+    width:100%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+}
+.Testymonials{
+    background-image:url(../Image/Group\ 566.png);
+    background-position:center;
+    background-size: cover;
+    background-color:#FEF4DE ;
+}
+.Tm-heading h1{
+    margin:0;
+    padding:100px 0;
+    color: #7C4032;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.mt-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.mt-border{
+    max-width: 512px;
+    border-radius: 30px;
+    border: 1px solid #7C4032;
+    background: #FFF;
+    padding:20px 50px;
+}
+.mt-heading h3{
+    margin:0;
+    padding:0;
+    color: #7C4032;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px; /* 150% */
+}
+.mt-heading p{
+    margin:10px 0 0 0;
+    padding:0;
+    color: var(--gray-1, #333);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+.mt-heading ul{
+    display: flex;
+    margin:0 0 0 0;
+    padding:10px 0 0 0;
+}
+.mt-heading ul li{
+    list-style:none;
+    padding:0 5px 0 5px;
+}
+.Ctus-heading{
+    margin:0;
+    padding:42px 0;
+    color: #7C4032;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.Contact input{
+    border:none;
+    outline:none;
+    background: #E5AF99;
+    color: #E5AF99 ;
+    border-radius: 61px;
+}
+.Contactus-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.Contact ul{
+    margin:0;
+    padding:0;
+}
+.Contact ul li{
+    list-style:none;
+    padding:10px 10px 10px 10px;   
+}
+.Contact ul li em{
+    margin:0;
+    padding:0 10px;
+    color: var(--gray-1, #333);
+    font-family: TT Hoves;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.box{
+    background-color: #FFF;
+}
+
+
