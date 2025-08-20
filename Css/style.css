@@ -11,10 +11,63 @@
     
 }
 .bear-main{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding:100px 0 100px 0;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding:100px 0 100px 0;
+        gap: 40px;
+}
+
+@media (max-width: 991.98px) {
+    .bear-main {
+        flex-direction: column;
+        padding: 60px 0 60px 0;
+        gap: 32px;
+        text-align: center;
+    }
+    .bear-heading h1 {
+        font-size: 48px;
+    }
+    .bear-heading em {
+        font-size: 32px;
+        letter-spacing: 10px;
+        padding: 0 8px;
+    }
+    .bear-heading p {
+        font-size: 15px;
+        max-width: 100%;
+    }
+    .bear-img img {
+        max-width: 320px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .bear-main {
+        padding: 32px 0 32px 0;
+        gap: 20px;
+    }
+    .bear-heading h1 {
+        font-size: 32px;
+    }
+    .bear-heading em {
+        font-size: 18px;
+        letter-spacing: 4px;
+        padding: 0 4px;
+    }
+    .bear-heading p {
+        font-size: 13px;
+    }
+    .bear-button {
+        padding: 12px 32px;
+        font-size: 15px;
+    }
+    .bear-img img {
+        max-width: 200px;
+    }
+}
 }
 .bear-heading h1{
     margin:0;
